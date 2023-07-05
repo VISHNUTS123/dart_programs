@@ -2,7 +2,7 @@
 import 'dart:math';
 import 'dart:io';
 
-class area{
+class Area{
     double circle(double radius){
     return pi*pow(radius,2);
   }
@@ -21,7 +21,7 @@ class area{
 }
 
 void main(){
-  area Area = area();
+  Area area = Area();
   print('ENTER ONLY POSITIVE VALUES');
   double radius,base,height,side,length,breadth;
   int option;
