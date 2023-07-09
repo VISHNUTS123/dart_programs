@@ -34,14 +34,14 @@ void main(){
   if (option ==1 ){
     print('Enter the radius of the circle');
     radius = double.parse(stdin.readLineSync()!);
-    double area1 = Area.circle(radius);
+    double area1 = area.circle(radius);
     print('Area of the circle is ${area1}');
   }else if (option==2){
     print('Enter the base of the triangle');
     base = double.parse(stdin.readLineSync()!);
     print('Enter the height of the triangle');
     height = double.parse(stdin.readLineSync()!);
-    double area2 = Area.triangle(base,height);
+    double area2 = area.triangle(base,height);
     print('Area of the triamgle is ${area2}');
 
   }
@@ -50,13 +50,13 @@ void main(){
     length = double.parse(stdin.readLineSync()!);
     print('Enter the breadth of the rectangle');
     breadth = double.parse(stdin.readLineSync()!);
-    double area3 = Area.rectangle(length,breadth);
+    double area3 = area.rectangle(length,breadth);
     print('Area of the rectangle is ${area3}');
   }
   else if (option==4){
     print('Enter the side of the cube');
     side = double.parse(stdin.readLineSync()!);
-    double area4 = Area.cube(side);
+    double area4 = area.cube(side);
     print('Area of the cube is ${area4}');
 
   }
