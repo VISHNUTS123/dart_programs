@@ -3,7 +3,7 @@ class Employee {
   int _id;
   String _name;
 
-  Employee(this._id, this._name);
+  Employee.employee1(this._id, this._name);
 
   int getId() {
     return _id;
@@ -23,7 +23,8 @@ class Employee {
 }
 void main() {
 
-  var employee = Employee(1234, 'John Doe');
+  Employee employee = Employee.employee1(1234, 'John Doe');
+
 
 
   print(employee.getId());    // Output: 1234
